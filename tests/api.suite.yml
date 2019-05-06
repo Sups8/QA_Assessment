@@ -1,0 +1,11 @@
+actor: ApiTester
+modules:
+    enabled:
+        - '\Helper\Api'
+        - 'Asserts'
+        - 'REST'
+    config:
+        REST:
+            depends: PhpBrowser
+            part: Json
+            url: http://api.openweathermap.org
