@@ -1,6 +1,6 @@
 # GUI TESTS
 
-This Project is about automating the websites for the search functionality using Selenium in BDD.
+This Project is about testing the api to check the weather.
 
 ## URL
 
